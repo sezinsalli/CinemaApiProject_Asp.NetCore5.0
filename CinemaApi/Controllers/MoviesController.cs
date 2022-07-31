@@ -18,7 +18,7 @@ namespace CinemaApi.Controllers
         {
             _dbContext = dbContext;
         }
-        //Bu metoda sadece admin erişebilsin
+       
 
         [Authorize]
         [HttpGet("[action]")]
